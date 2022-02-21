@@ -1,5 +1,7 @@
-var a = prompt("sonni kiriting");
+var a = Number(prompt("sonni kiriting"));
 console.log(a);
+
+
 
 if(a % 3 == 0 && (a % 5 == 0)){
   console.log("bu son 3 ga ham 5 ga ham bo'linadi");
